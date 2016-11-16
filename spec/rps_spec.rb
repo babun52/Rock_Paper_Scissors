@@ -19,8 +19,4 @@ describe("a combination of 'rock', 'paper', 'scissors' of a game") do
   it("if anything else you lose") do
     expect("rock".beats("paper")).to(eq("you lose"))
   end
-
-
-
-
 end
