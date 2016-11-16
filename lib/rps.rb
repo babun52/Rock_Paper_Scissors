@@ -8,6 +8,13 @@ class String
       "winner"
     elsif self == selected
       "tie"
+    else "you lose"
     end
   end
 end
+
+# print "paper".beats("scissors")
+#
+#
+# elsif self == "rock" and selected == "paper"
+#   "you lose"
